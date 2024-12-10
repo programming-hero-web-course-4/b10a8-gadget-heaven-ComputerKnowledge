@@ -1,0 +1,339 @@
+[
+  {
+    "product_id": 1,
+    "product_title": "UltraBook Pro 15",
+    "product_image": "/pic/img/L1.jpg",
+    "category": "Laptops",
+    "price": 1200.5,
+    "description": "A high-performance laptop with a 15-inch display, perfect for professionals.",
+    "Specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "15.6-inch 4K Display"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+
+  {
+    "product_id": 2,
+    "product_title": "BudgetBook 14",
+    "product_image": "/pic/img/L2.webp",
+    "category": "Laptops",
+    "price": 499.75,
+    "description": "Affordable laptop ideal for students and everyday use.",
+    "Specification": [
+      "Intel i3 Processor",
+      "8GB RAM",
+      "256GB SSD",
+      "14-inch HD Display"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 3,
+    "product_title": "SmartPhone Max 13",
+    "product_image": "/pic/img/S1.webp",
+    "category": "Phones",
+    "price": 999.25,
+    "description": "Flagship smartphone with cutting-edge features and design.",
+    "Specification": [
+      "6.7-inch OLED Display",
+      "128GB Storage",
+      "Triple Camera System",
+      "5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 4,
+    "product_title": "BudgetPhone Lite",
+    "product_image": "/pic/img/S2.avif",
+    "category": "Phones",
+    "price": 299.99,
+    "description": "Affordable smartphone with all the essentials.",
+    "Specification": [
+      "6.1-inch LCD Display",
+      "64GB Storage",
+      "Dual Camera System",
+      "4G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.2
+  },
+  {
+    "product_id": 5,
+    "product_title": "Pro Headphones 2",
+    "product_image": "/pic/img/H1.jpg",
+    "category": "Accessories",
+    "price": 199.49,
+    "description": "Noise-canceling headphones with high-fidelity sound.",
+    "Specification": [
+      "Over-ear Design",
+      "Active Noise Cancellation",
+      "Bluetooth 5.0",
+      "20-hour Battery Life"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 6,
+    "product_title": "Ergo Keyboard K100",
+    "product_image": "/pic/img/K1.jpeg",
+    "category": "Accessories",
+    "price": 79.9,
+    "description": "Ergonomic keyboard with mechanical keys and wrist support.",
+    "Specification": [
+      "Mechanical Keys",
+      "Ergonomic Design",
+      "RGB Backlight",
+      "USB-C Connection"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 7,
+    "product_title": "Smart Watch Series 6",
+    "product_image": "/pic/img/W1.webp",
+    "category": "Smart Watches",
+    "price": 399.1,
+    "description": "Advanced smart watch with fitness tracking and health monitoring.",
+    "Specification": [
+      "1.8-inch AMOLED Display",
+      "Heart Rate Monitor",
+      "GPS",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 8,
+    "product_title": "Fitness Tracker Band 4",
+    "product_image": "/pic/img/W2.jpeg",
+    "category": "Smart Watches",
+    "price": 99.8,
+    "description": "Affordable fitness tracker with essential health tracking features.",
+    "Specification": [
+      "0.96-inch OLED Display",
+      "Step Tracker",
+      "Sleep Monitoring",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 9,
+    "product_title": "UltraBook Air 13",
+    "product_image": "/pic/img/L3.webp",
+    "category": "Laptops",
+    "price": 899.99,
+    "description": "Lightweight and portable laptop with a powerful processor.",
+    "Specification": [
+      "Intel i5 Processor",
+      "8GB RAM",
+      "256GB SSD",
+      "13.3-inch Full HD Display"
+    ],
+    "availability": true,
+    "rating": 4.4
+  },
+  {
+    "product_id": 10,
+    "product_title": "Gaming Beast 17",
+    "product_image": "/pic/img/L4.webp",
+    "category": "Laptops",
+    "price": 1500.45,
+    "description": "High-performance gaming laptop with a stunning display.",
+    "Specification": [
+      "AMD Ryzen 9",
+      "32GB RAM",
+      "1TB SSD",
+      "17.3-inch 144Hz Display"
+    ],
+    "availability": false,
+    "rating": 4.8
+  },
+  {
+    "product_id": 11,
+    "product_title": "SmartPhone Lite 10",
+    "product_image": "/pic/img/S2.jpg",
+    "category": "Phones",
+    "price": 750.2,
+    "description": "Slim and stylish smartphone with a brilliant display.",
+    "Specification": [
+      "6.5-inch AMOLED Display",
+      "128GB Storage",
+      "Dual Camera System",
+      "5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 12,
+    "product_title": "Wireless Charger Pad",
+    "product_image": "/pic/img/C1.jpg",
+    "category": "Accessories",
+    "price": 69.99,
+    "description": "Fast wireless charger compatible with multiple devices.",
+    "Specification": [
+      "15W Fast Charging",
+      "Compact Design",
+      "LED Indicator",
+      "USB-C Power Input"
+    ],
+    "availability": true,
+    "rating": 4.3
+  },
+  {
+    "product_id": 13,
+    "product_title": "Smart Watch Pro X",
+    "product_image": "/pic/img/W3.webp",
+    "category": "Smart Watches",
+    "price": 499.15,
+    "description": "Luxury smart watch with premium design and features.",
+    "Specification": [
+      "1.9-inch AMOLED Display",
+      "ECG Monitoring",
+      "LTE Support",
+      "Water Resistant"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "product_id": 14,
+    "product_title": "Gaming Mouse GX5",
+    "product_image": "/pic/img/M1.jpeg",
+    "category": "Accessories",
+    "price": 59.6,
+    "description": "High-precision gaming mouse with customizable RGB lighting.",
+    "Specification": [
+      "Adjustable DPI",
+      "Ergonomic Design",
+      "Programmable Buttons",
+      "USB-C Connection"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 15,
+    "product_title": "Normal Mouse",
+    "product_image": "/pic/img/M1.jpg",
+    "category": "Accessories",
+    "price": 120.75,
+    "description": "Stream your favorite content in 4K Ultra HD.",
+    "Specification": [
+      "Adjustable DPI",
+      "Ergonomic Design",
+      "Programmable Buttons",
+      "USB-C Connection"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 16,
+    "product_title": "UltraBook Slim 14",
+    "product_image": "/pic/img/L5.webp",
+    "category": "Laptops",
+    "price": 1100.35,
+    "description": "Slim and lightweight laptop with all-day battery life.",
+    "Specification": [
+      "Intel i7 Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "14-inch Full HD Display"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 17,
+    "product_title": "ProTablet 11",
+    "product_image": "/pic/img/T1.jpg",
+    "category": "Accessories",
+    "price": 650.75,
+    "description": "2-in-1 tablet with detachable keyboard.",
+    "Specification": [
+      "11-inch Display",
+      "256GB Storage",
+      "Stylus Support",
+      "LTE Connectivity"
+    ],
+    "availability": false,
+    "rating": 4.4
+  },
+  {
+    "product_id": 18,
+    "product_title": "ActionCam 4K",
+    "product_image": "/pic/img/C2.jpg",
+    "category": "Accessories",
+    "price": 200.9,
+    "description": "Waterproof action camera for extreme sports.",
+    "Specification": [
+      "4K Video Recording",
+      "Wide-angle Lens",
+      "Wi-Fi",
+      "Rugged Design"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "product_id": 19,
+    "product_title": "SmartPhone Mini 12",
+    "product_image": "/pic/img/S4.webp",
+    "category": "Phones",
+    "price": 700.65,
+    "description": "Compact smartphone with high-end performance.",
+    "Specification": [
+      "5.8-inch OLED Display",
+      "128GB Storage",
+      "Dual Camera System",
+      "5G Connectivity"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "product_id": 20,
+    "product_title": "Premium VR Headset",
+    "product_image": "/pic/img/V1.jpg",
+    "category": "Accessories",
+    "price": 350.55,
+    "description": "Immerse yourself in virtual reality with this premium headset.",
+    "Specification": [
+      "4K Display",
+      "Comfortable Fit",
+      "Wide Game Support",
+      "Lightweight Design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "product_id": 21,
+    "product_title": "HP ProBook",
+    "product_image": "/pic/img/L7.png",
+    "category": "Laptops",
+    "price": 900.5,
+    "description": "A high-performance laptop with a 15-inch display, perfect for professionals.",
+    "Specification": [
+      "Intel i5 Processor",
+      "16GB RAM",
+      "512GB SSD",
+      "15.6-inch 2K Display"
+    ],
+    "availability": true,
+    "rating": 4.9
+  }
+]
