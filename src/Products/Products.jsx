@@ -14,7 +14,7 @@ const Products = () => {
   ];
   const { products, setProducts } = useContext(ValueContext);
   useEffect(() => {
-    fetch("/public/fakeData.json")
+    fetch("/fakeData.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

@@ -16,16 +16,20 @@ const Dashboard = () => {
         </p>
         <button
           onClick={handleActiveCart}
-          className={`btn btn-outline text-white ${
-            isActive && "bg-white text-black"
+          className={` ${
+            isActive
+              ? "btn btn-outline bg-white  text-black"
+              : "btn btn-outline  text-white"
           }`}
         >
           cart
         </button>
         <button
           onClick={handleActiveWish}
-          className={`btn btn-outline  text-white ${
-            isActive || "bg-white text-black"
+          className={` ${
+            isActive
+              ? "btn btn-outline  text-white"
+              : "btn btn-outline bg-white  text-black"
           }`}
         >
           wishlist
