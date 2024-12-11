@@ -29,6 +29,7 @@ const Root = () => {
     setWishlist(newWishlist);
   };
   const handleCardlist = (p) => {
+    handleDetele1(p);
     const newCardlist = [...cardlist, p];
     setCardlist(newCardlist);
     setTotalPrice(totalPrice + p.price);

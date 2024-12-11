@@ -3,9 +3,13 @@ import { ValueContext } from "../routes/root";
 import { RiDeleteBin6Line } from "react-icons/ri";
 
 const Wish = () => {
-  const { wishlist, setWishlist, handleDetele1 } = useContext(ValueContext);
+  const { wishlist, setWishlist, handleDetele1, handleCardlist } =
+    useContext(ValueContext);
   return (
     <div className="mt-8">
+      <h2 className="text-2xl font-extrabold ml-2 sm:ml-4 md:ml-6 lg:ml-8 pb-2">
+        WishList
+      </h2>
       {wishlist.map((p) => (
         <div
           key={p.product_id}
@@ -23,6 +27,12 @@ const Wish = () => {
                 {p.description}
               </p>
               <p className="font-bold text-lg lg:text-xl">{p.price}</p>
+              <button
+                onClick={() => handleCardlist(p)}
+                className="btn btn-sm w-32 btn-outline btn-primary mr-2"
+              >
+                Add to cart
+              </button>
             </div>
           </div>
           <div className="mr-4">
