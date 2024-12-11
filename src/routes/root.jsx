@@ -2,6 +2,8 @@ import { Outlet } from "react-router-dom";
 import Navber from "../Navber/Navber";
 import Footer from "../Footer/Footer";
 import { createContext, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Root = () => {
   const [products, setProducts] = useState([]);
@@ -29,14 +31,49 @@ const Root = () => {
     setWishlist(newWishlist);
   };
   const handleCardlist = (p) => {
-    handleDetele1(p);
-    const newCardlist = [...cardlist, p];
-    setCardlist(newCardlist);
-    setTotalPrice(totalPrice + p.price);
+    // setTotalPrice(totalPrice + p.price);
+    if (totalPrice < 2000) {
+      handleDetele1(p);
+      const newCardlist = [...cardlist, p];
+      setCardlist(newCardlist);
+      setTotalPrice(totalPrice + p.price);
+      toast.success(`${p.product_title} has been added to cart`, {
+        position: "top-center",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    } else {
+      // setTotalPrice(totalPrice - p.price);
+      toast.error("Sorry, your price limits has exceeded.", {
+        position: "top-center",
+        autoClose: 2000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    }
   };
   const handleWishlist = (p) => {
     const newWishlist = [...wishlist, p];
     setWishlist(newWishlist);
+    toast.info(`${p.product_title} has been added to the WishList.`, {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
   const handleActiveCart = () => {
     setIsActive(true);
@@ -64,6 +101,19 @@ const Root = () => {
   };
   return (
     <div>
+      <ToastContainer
+        position="top-center"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+        transition:Bounce
+      />
       <ValueContext.Provider value={allValue}>
         <Navber></Navber>
         <Outlet></Outlet>

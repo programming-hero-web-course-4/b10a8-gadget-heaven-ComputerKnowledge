@@ -1,10 +1,14 @@
 import React, { createContext } from "react";
 import Header from "../Header/Header";
 import Products from "../Products/Products";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
     <div className="bg-gray-200">
+      <Helmet>
+        <title>Gadget Heaven</title>
+      </Helmet>
       <Header></Header>
       <h3 className="text-xl sm:text-2xl lg:text-3xl pb-6 sm:pb-8 md:pb-10 lg:pb-12 font-extrabold text-center">
         Explore Cutting-Edge Gadgets

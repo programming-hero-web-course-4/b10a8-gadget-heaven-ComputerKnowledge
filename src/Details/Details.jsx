@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { ValueContext } from "../routes/root";
+import { Helmet } from "react-helmet";
 
 const Details = () => {
   const { product_id } = useParams();
@@ -24,6 +25,9 @@ const Details = () => {
   const wishActive = !!wishlist.find((p) => p.product_id === id);
   return (
     <div className="relative">
+      <Helmet>
+        <title>Gadget Heaven || Details </title>
+      </Helmet>
       <div className="bg-purple-600 mb-[500px] md:mb-[250px] lg:mb-[250px] pb-96 pt-8 text-white text-center">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold pb-4">
           Product Details

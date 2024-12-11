@@ -2,12 +2,16 @@ import React, { useContext } from "react";
 import { ValueContext } from "../routes/root";
 import Cart from "../Cart/Cart";
 import Wish from "../Wish/Wish";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
   const { isActive, handleActiveCart, handleActiveWish } =
     useContext(ValueContext);
   return (
     <div className="">
+      <Helmet>
+        <title>Gadget Heaven || Dashboard</title>
+      </Helmet>
       <div className="text-center space-x-4 py-8   bg-purple-600">
         <h3 className="text-2xl text-white lg:text-3xl font-bold">Dashboard</h3>
         <p className="text-white text-sm lg:text-lg py-2">
