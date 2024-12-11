@@ -17,12 +17,12 @@ const Root = () => {
     document.getElementById("my_modal_1").showModal();
   };
   const handleDetele = (p) => {
-    // console.log(p);
+    const f = (cardlist, p) =>
+      cardlist.filter((a) => a.product_id === p.product_id).length;
 
     const newCardlist1 = cardlist.filter((a) => a.product_id != p.product_id);
-
     setCardlist(newCardlist1);
-    setTotalPrice(totalPrice - b * p.price);
+    setTotalPrice(totalPrice - f(cardlist, p) * p.price);
   };
   const handleDetele1 = (p) => {
     const newWishlist = wishlist.filter((a) => a.product_id != p.product_id);

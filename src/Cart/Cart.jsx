@@ -19,7 +19,7 @@ const Cart = () => {
         <h3 className="text-xl font-extrabold">Cart</h3>
         <div className="sm:flex items-center gap-4">
           <p className="text-xl font-extrabold">
-            Total cost: {totalPrice.toFixed(2)}
+            Total cost: {Math.abs(totalPrice.toFixed(2))}
           </p>
           <button
             onClick={handleShort}
