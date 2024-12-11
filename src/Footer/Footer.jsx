@@ -9,6 +9,7 @@ const Footer = () => {
           Leading the way in cutting-edge technology and innovation.
         </p>
       </div>
+      <hr />
       <div className="footer px-4 sm:px-8 md:px-0 block md:grid space-y-4 items-baseline  justify-evenly">
         <div className="">
           <h6 className="footer-title mb-0 sm:text-lg font-extrabold opacity-100">
@@ -36,6 +37,9 @@ const Footer = () => {
           <a className="link text-xs sm:text-sm link-hover">Privacy policy</a>
           <a className="link text-xs sm:text-sm link-hover">Cookie policy</a>
         </div>
+      </div>
+      <div className="mt-[40px] text-center">
+        @2024 Gadgets Heaven All Rights Reserved
       </div>
     </footer>
   );
